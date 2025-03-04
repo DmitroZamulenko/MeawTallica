@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MeawTallica</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="the_goodier.zip">
+    </head>
+    <body>
+        <header>                <!--логотип-->
+            <img src="logo.png" alt="logo" id="logo">
+        </header>
+        <main>                  <!--форма-->
+            <form id="form">
+                <h1>
+                    CREATING YOUR OWN MUSIC GROUP
+                </h1>
+                <label for="nickname">
+                    nickname
+                    <br>
+                    <input type="text" id="nickname" placeholder="nickname" maxlength="15">
+                </label>
+                <br>
+                <label for="male">
+                    <input type="radio" name="gender" id="male" value="male">
+                    male
+                </label>
+                <label for="female">
+                    <input type="radio" name="gender" id="female" value="female">
+                    female
+                </label>
+                <label for="dog">
+                    <input type="radio" name="gender" id="dog" value="dog">
+                    dog
+                </label>
+                <br>
+                <label for="date">
+                    date start game
+                    <br>
+                    <input type="date" id="date" min="1900-01-01" max="2022-01-01" value="2000-01-01">
+                </label>
+                <br>
+                <label for="password">
+                    Password
+                    <br>
+                    <input type="password" maxlength="10" placeholder="password" id="password">
+                </label>
+                <br>
+                <br>
+                <button type="submit" id="start">start travel</button>
+                <button type="reset" id="reset">delete</button>
+            </form>
+        </main>
+        <footer id="footer">    <!--підвал-->
+            <div id="info">© 2024 Meawtalica
+
+Сайт зроблено лапками nevarto dmitro | Дизайн: meeaqli  
+Інформаційний спонсор —  <a href="https://chatgpt.com/">чат-GPT</a>
+Фоточки — з <a href="https://ru.pinterest.com/">Pinterest</a> (бо ми естети)</div>
+            <div id="connection">Допомога 
+Тг: <a href="https://t.me/Dmitro_Zamulenko">@dmitro</a> <a href="https://t.me/meeaqli">@meeaqli</a>
+E-mail: <a href="mailto:d.zamulenko.2014@ccsh17.distedu.org">dmitro</a>
+Слідкуйте за нами тут: <a href="https://t.me/Meawtalica_meow">[Meawtalica в Telegram]</a> "Claws up, volume up!"</div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

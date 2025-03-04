@@ -1,0 +1,214 @@
+@keyframes manager{
+    0%{height: 200px;}
+    50%{height: 140px;}
+    100%{height: 200px;}
+}
+@keyframes fan{
+    0%{background-image: url(frame1.png);}
+    10%{background-image: url(frame2.png);}
+    20%{background-image: url(frame3.png);}
+    30%{background-image: url(frame4.png);}
+    40%{background-image: url(frame5.png);}
+    50%{background-image: url(frame6.png);}
+    60%{background-image: url(frame5.png);}
+    70%{background-image: url(frame4.png);}
+    80%{background-image: url(frame3.png);}
+    90%{background-image: url(frame2.png);}
+    100%{background-image: url(frame1.png);}
+}
+@keyframes muzicant{
+    0%{background-image: url(bframe1.png);}
+    10%{background-image: url(bframe1.png);}
+    20%{background-image: url(bframe3.png);}
+    30%{background-image: url(bframe4.png);}
+    40%{background-image: url(bframe5.png);}
+    50%{background-image: url(bframe6.png);}
+    60%{background-image: url(bframe7.png);}
+    70%{background-image: url(bframe8.png);}
+    80%{background-image: url(bframe9.png);}
+    90%{background-image: url(bframe10.png);}
+    100%{background-image: url(bframe11.png);}
+}
+@keyframes fan2{
+    0%{background-image: url(aframe1.png);}
+    10%{background-image: url(aframe2.png);}
+    20%{background-image: url(aframe3.png);}
+    30%{background-image: url(aframe4.png);}
+    40%{background-image: url(aframe5.png);}
+    50%{background-image: url(aframe6.png);}
+    60%{background-image: url(aframe7.png);}
+    70%{background-image: url(aframe8.png);}
+    80%{background-image: url(aframe9.png);}
+    90%{background-image: url(aframe10.png);}
+    100%{background-image: url(aframe1.png);}
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+}
+body {
+    background-image: url('background2.png');
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header{            /* логотип */
+    width: 100%;
+    height: 300px;
+}
+#logo{
+    position: relative;
+    height: 100%;
+    width: 26%;
+    left: 37%;
+    right: 37%;
+}
+main{               /*сцена*/
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-image: url(scene.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#play{
+    font-size: 19px;
+    font-weight: bolder;
+    color: bisque;
+    background-color: rgb(194, 0, 90);
+    margin-top: 4%;
+    margin-left: 3%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#scene{
+    display: block;
+    width: 100%;
+    height: 800px;
+}
+#currency{
+    background-image: url(curback.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 140px;
+    height: 140px;
+}
+span{
+    font-weight: bolder;
+    display: block;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+#fish{
+    position: relative;
+    top: 9%;
+    right: -43%;
+    width: 35px;
+    height: 35px;
+}
+#money{
+    font-size: 24px;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#manager{
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    top: 60%;
+    right: 5%;
+}
+.fan{
+    position: absolute;
+    width: 190px;
+    height: 220px;
+    animation: fan 1s infinite;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 65%;
+    left: 30%;
+
+}
+.fan2{
+    position: absolute;
+    width: 190px;
+    height: 220px;
+    animation: fan2 500ms infinite;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 65%;
+    left: 40%;
+}
+#a{
+    left: 10%;
+}
+#b{
+    left: 20%;
+}
+#c{
+    left: 30%;
+}
+#d{
+    left: 40%;
+}
+#e{
+    left: 50%;
+}
+#f{
+    left: 60%;
+}
+#muzicant{
+    position: absolute;
+    width: 180px;
+    height: 210px;
+    animation: muzicant 1s infinite;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    left: 45%;
+}
+#footer{            /* підвал */
+    width: 100%;
+    height: 140px;
+    background-color:#475679;
+}
+#info{
+    color: bisque;
+    width: 50%;
+    height: 100%;
+    float: left;
+    white-space: pre-wrap;
+    line-height: 20px;
+    padding: 8px 0px 0px 15px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#connection{
+    color: bisque;
+    font-family: sans-serif;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 8px 0px 0px 0px;
+    height: 100%;
+    width: 50%;
+    float: right;
+    text-align: left;
+    white-space: pre-wrap;
+}
+a{
+    color: pink;
+}
